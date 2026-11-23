@@ -1,0 +1,11 @@
+Test Case ID,Title,Preconditions,Steps,Expected Result,Priority,Status,Actual Result,Environment
+TC-001,Open homepage,Internet connection available,1. Navigate to https://remington-arms.com/,Homepage loads over HTTPS,High,Not Run,,
+TC-002,Verify homepage main heading,Homepage is open,1. Observe the main content area,Main heading is visible and readable,Medium,Not Run,,
+TC-003,Open 700 Series from header,Homepage is open,1. Click 700 Series in header,Corresponding public information page opens,Medium,Not Run,,
+TC-004,Open 870 Series from header,Homepage is open,1. Click 870 Series in header,Corresponding public information page opens,Medium,Not Run,,
+TC-005,Open Owner's Manuals from header,Homepage is open,1. Click Owner's Manuals in header,Public manuals page opens,High,Not Run,,
+TC-006,Open Contact from header,Homepage is open,1. Click Contact in header,Public contact page opens,Medium,Not Run,,
+TC-007,Open Accessibility Statement,Homepage is open,1. Scroll to footer 2. Click Accessibility Statement,Accessibility statement page opens,Low,Not Run,,
+TC-008,Open Privacy Policy,Homepage is open,1. Scroll to footer 2. Click Privacy Policy,Privacy policy page opens,Low,Not Run,,
+TC-009,Check keyboard navigation,Homepage is open,1. Press Tab repeatedly 2. Observe focus indicator,Interactive elements receive visible keyboard focus,Medium,Not Run,,
+TC-010,Check mobile layout,Responsive browser tools available,1. Set viewport to 390x844 2. Reload homepage,Content and navigation remain usable without unintended overlap,High,Not Run,,
